@@ -29,6 +29,7 @@ nvm alias default 17.9.1
 
 Cómo probar el proyecto
 
+```java
 En el directorio del proyecto, se pueden correr los siguientes comandos:
 npm install @react-navigation/stack
 npm install @react-navigation/native
@@ -36,6 +37,7 @@ npm install react-native-snap-carousel
 npx expo start
 Para abrir el proyecto debe tener instalado Expo Go en su dispositivo móvil y escanear el código QR que se muestra en la terminal.
 
+```
 
 La página se recargará (localmente) cuando se hagan cambios.
 También se podrá ver cualquier error en la consola.
