@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, ScrollView, Button, Image, Dimensions, Pressabl
 import { useNavigation } from '@react-navigation/native';
 import Carousel from 'react-native-snap-carousel';
 import { storeContext } from './StoreProvider';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 function Home() {
   const [searchQuery, setSearchQuery] = useState(''); 
@@ -22,9 +23,9 @@ function Home() {
   const handleShowDetails = (item) => {
     navigation.navigate('Detalle', { item });
   };
-
+  
   return (
-    <ScrollView style={styles.showsContainer}>
+    <KeyboardAwareScrollView style={styles.showsContainer}>
       <View style={styles.section}>
         <Text style={styles.sectionShowTitle}>Shows</Text>
       </View>
@@ -112,7 +113,7 @@ function Home() {
           onPress={() => navigation.navigate('ListadoCompleto')} 
         />
         </View>
-    </ScrollView>
+    </KeyboardAwareScrollView>
     
   );
 }
