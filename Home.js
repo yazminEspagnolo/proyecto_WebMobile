@@ -113,8 +113,7 @@ function Home() {
           onPress={() => navigation.navigate('ListadoCompleto')} 
         />
         </View>
-    </KeyboardAwareScrollView>
-    
+    </KeyboardAwareScrollView> 
   );
 }
 

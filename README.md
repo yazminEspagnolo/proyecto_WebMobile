@@ -46,8 +46,8 @@ En el directorio del proyecto, se pueden correr los siguientes comandos:
 ```java
 npm install @react-navigation/stack
 npm install @react-navigation/native
-npm install react-native-snap-carousel
 npm install react-native-keyboard-aware-scroll-view
+npm install react-native-snap-carousel
 npx expo start
 ```
 Para abrir el proyecto debe tener instalado Expo Go en su dispositivo móvil y escanear el código QR que se muestra en la terminal.
